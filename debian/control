@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9), dh-systemd
 
 Package: base-files
 Provides: base
-Architecture: any
+Architecture: all
 Pre-Depends: awk
 Depends: ${misc:Depends}, ${shlibs:Depends}, libcrypt1 (>= 1:4.4.10-10ubuntu3)
 Essential: yes
